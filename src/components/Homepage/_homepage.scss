@@ -1,0 +1,122 @@
+.header {
+    width: 100%;
+    height: 75vh;
+    background: url(./images/landingpageimage.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+
+    &__content1{
+        align-self: center;
+        margin-left: 200px;
+        justify-content: space-around;
+        position: absolute;        
+    }
+  
+    &__content {
+      display: flex;
+      height: 50vh;
+  
+      &-links a {
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+        font-size: 17px;
+      }
+      &-span {
+        display: inline-block;
+        height: 15px;
+        width: 1.5px;
+        background: white;
+        margin-left: 20px;
+        transform: rotate(10deg);
+      }
+    }
+  
+    &__content-h1 {
+      font-size: 75px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+  }
+  .btn1{
+      background-color: #dbb060;
+      border-radius: 5px;
+      border:none;
+      padding: 10px 20px;
+      font-size: 15px;
+      size: 35px; 
+      margin-inline: 10px;
+      opacity: 2;
+      transition-duration: 0.2s;
+      color: white;
+      box-shadow: 0 0 5px 0 rgba(236, 210, 84, 0.6);
+
+  }
+  .btn1:hover{
+
+      opacity: 0.8;
+      transition-duration: 0.2s;
+      transform: translateY(-0.20em);
+      box-shadow: 0 0 5px 0 rgba(167, 166, 164, 0.6);
+      
+  }
+  .section{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+  }
+  .banner{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      width: 100%;
+
+}
+.banner_left{
+    flex: 0.5;
+   padding-left:50px;
+
+
+}
+.banner_right{
+ flex: 0.5;
+ display: flex;
+ justify-content: center;
+
+}
+
+.img{
+    width: 324px;
+    
+
+}
+.banner-desc{
+    width: 508px;
+}
+.banner-btn{
+    padding: 9px 23px;
+    border-radius: 6px;
+    background: #daaf60;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+.banner-btn:hover{
+    background-color: #e1bb73;
+}
+.container{
+    max-width: 60%;
+}
+.bt2{
+  background-color: #fff;
+  color: royalblue;
+  box-shadow: 0 0 5px 0 rgba(57, 63, 244, 0.6);
+  &:hover{
+    
+  }
+}

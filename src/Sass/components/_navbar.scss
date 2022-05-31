@@ -1,0 +1,114 @@
+.navbar {
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    height: 100px;
+    transition: all 0.5s linear;
+    z-index: 5;
+    font-family: sans-serif;
+    &__container1 {
+        background-color: $black;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content:space-around;
+        
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        height: 50px;
+        background-color: #fff;
+        width: 100%;
+      
+    }
+
+    &__left img {
+        width: 50px;
+        height: auto;
+    }
+
+    &__content {
+        display: flex;
+        list-style: none;
+        margin-top: 20px 0px 20px 0px;
+    }
+
+    &__right {
+        color: $white;
+        display: flex;
+        justify-content: space-around;
+        padding: 8px;
+        width: 30px;
+
+     
+    }
+    
+
+    & li a {
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 13px 10px;
+        margin: 10px 10px;
+        text-decoration: none;
+        opacity: 1;
+    }
+    & li a:hover{
+        opacity:0.4;
+        transform: translateY(-0.25em);
+        transition-duration: 0.2s
+    }
+
+    &__center {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        padding: 4px;
+        margin-top: 10px;
+    }
+}
+.img{
+    padding: 7px;
+    // opacity:1;
+}
+.img:hover{
+    opacity:0.4
+}
+.container1__left{
+    margin-left: 150px;
+}
+.container1__right{
+    display: flex;
+    margin-top: 10px;
+
+    & p{
+        color: white;
+        padding: 5px;
+    }
+    & dropdown{
+
+    }
+
+    
+}
+.span{
+    height: 40px;
+    width: 2.5px;
+    background-color: $white;
+    margin-top: 5px;
+    color: white;
+}
+.dropdown{
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-top: 7.5px;
+}
+.img1{
+    color: #dbb060;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
